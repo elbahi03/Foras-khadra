@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
+
+/* ==============================
+   HEADER
+============================== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 68px;
+  background: var(--green-deep, #163D2C);
+  box-shadow: 0 2px 16px rgba(22, 61, 44, 0.35);
+  font-family: 'Tajawal', 'Segoe UI', sans-serif;
+}
+
+/* ==============================
+   LOGO
+============================== */
+.header-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.header-logo img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  transition: opacity 0.2s ease;
+}
+
+.header-logo:hover img {
+  opacity: 0.85;
+}
+
+/* ==============================
+   NAV
+============================== */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-link {
+  position: relative;
+  color: #CFE6D7;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: background 0.18s ease, color 0.18s ease;
+  white-space: nowrap;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  right: 14px;
+  left: 14px;
+  height: 2px;
+  background: var(--orange, #F2994A);
+  border-radius: 999px;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+  transform-origin: right;
+}
+
+[dir="ltr"] .nav-link::after {
+  transform-origin: left;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-link.active {
+  color: #fff;
+  font-weight: 700;
+  background: rgba(242, 153, 74, 0.15);
+}
+
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+/* ==============================
+   LANGUAGE SELECT
+============================== */
+.lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #CFE6D7;
+  font-family: 'Tajawal', 'Segoe UI', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 7px 30px 7px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-inline-start: 10px;
+  outline: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23CFE6D7' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  transition: border-color 0.18s ease, background-color 0.18s ease;
+}
+
+[dir="rtl"] .lang-select {
+  background-position: right 10px center;
+  padding: 7px 12px 7px 30px;
+}
+
+.lang-select:hover {
+  border-color: var(--orange, #F2994A);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.lang-select:focus {
+  border-color: var(--orange, #F2994A);
+  box-shadow: 0 0 0 3px rgba(242, 153, 74, 0.2);
+}
+
+.lang-select option {
+  background: #163D2C;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* ==============================
+   HAMBURGER (mobile)
+============================== */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.18s ease;
+}
+
+.menu-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.menu-toggle span {
+  display: block;
+  height: 2px;
+  background: #CFE6D7;
+  border-radius: 999px;
+  transition: transform 0.3s ease, opacity 0.3s ease, width 0.3s ease;
+  transform-origin: center;
+}
+
+/* Animate to X */
+.menu-toggle.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.menu-toggle.open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.menu-toggle.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 18px;
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: absolute;
+    top: 68px;
+    right: 0;
+    left: 0;
+    background: #163D2C;
+    padding: 16px 18px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 24px rgba(22, 61, 44, 0.4);
+    z-index: 99;
+  }
+
+  [dir="ltr"] .nav {
+    align-items: flex-start;
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 16px;
+  }
+
+  .lang-select {
+    width: 100%;
+    margin-inline-start: 0;
+    margin-top: 8px;
+    padding: 10px 34px 10px 14px;
+    font-size: 14px;
+  }
+
+  [dir="rtl"] .lang-select {
+    padding: 10px 14px 10px 34px;
+  }
+}
