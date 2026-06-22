@@ -1,0 +1,512 @@
+[
+    {
+      "id": 1,
+      "image": "youth_renewable_energy.jpg",
+      "title": {
+        "ar": "منحة الطاقة المتجددة للشباب العربي",
+        "fr": "Bourse d'énergie renouvelable pour la jeunesse arabe",
+        "en": "Renewable Energy Scholarship for Arab Youth"
+      },
+      "type": {
+        "ar": "منحة",
+        "fr": "Bourse",
+        "en": "Scholarship"
+      },
+      "country": {
+        "ar": "المغرب",
+        "fr": "Maroc",
+        "en": "Morocco"
+      },
+      "deadline": "2026-08-15",
+      "funded": {
+        "ar": "ممولة بالكامل",
+        "fr": "Entièrement financée",
+        "en": "Fully Funded"
+      },
+      "organizer": {
+        "ar": "مؤسسة الطاقة الخضراء",
+        "fr": "Fondation pour l'Énergie Verte",
+        "en": "Green Energy Foundation"
+      },
+      "openDate": "2026-06-01",
+      "value": {
+        "ar": "15,000$",
+        "fr": "15 000 $",
+        "en": "15,000$"
+      },
+      "description": {
+        "ar": "منحة موجهة للشباب العربي المهتم بمشاريع الطاقة المتجددة، تغطي تكاليف التدريب والمعدات الأساسية لإطلاق مشاريع شمسية صغيرة في المناطق الريفية.",
+        "fr": "Bourse destinée aux jeunes arabes intéressés par les projets d'énergie renouvelable, couvrant les frais de formation et les équipements de base pour lancer de petits projets solaires en milieu rural.",
+        "en": "Scholarship aimed at Arab youth interested in renewable energy projects, covering training costs and basic equipment to launch small solar projects in rural areas."
+      },
+      "requirements": {
+        "ar": ["العمر بين 18 و30 سنة", "إقامة في أحد الدول العربية", "فكرة مشروع أولية في مجال الطاقة", "إجادة اللغة العربية أو الإنجليزية"],
+        "fr": ["Âge entre 18 et 30 ans", "Résidence dans un pays arabe", "Idée de projet initiale dans le domaine de l'énergie", "Maîtrise de l'arabe ou de l'anglais"],
+        "en": ["Age between 18 and 30 years", "Residency in an Arab country", "Initial project idea in the energy field", "Proficiency in Arabic or English"]
+      },
+      "benefits": {
+        "ar": ["تمويل كامل للمشروع", "تدريب تقني لمدة 3 أشهر", "إرشاد من خبراء في القطاع", "شهادة معتمدة عند الإتمام"],
+        "fr": ["Financement complet du projet", "Formation technique de 3 mois", "Mentorat par des experts du secteur", "Certificat approuvé à la fin"],
+        "en": ["Full project funding", "3-month technical training", "Mentorship from sector experts", "Certified certificate upon completion"]
+      }
+    },
+    {
+      "id": 2,
+      "image": "sustainable_agriculture_training.jpg",
+      "title": {
+        "ar": "برنامج تدريب الزراعة المستدامة",
+        "fr": "Programme de formation en agriculture durable",
+        "en": "Sustainable Agriculture Training Program"
+      },
+      "type": {
+        "ar": "تدريب",
+        "fr": "Formation",
+        "en": "Training"
+      },
+      "country": {
+        "ar": "تونس",
+        "fr": "Tunisie",
+        "en": "Tunisia"
+      },
+      "deadline": "2026-07-20",
+      "funded": {
+        "ar": "تمويل جزئي",
+        "fr": "Financement partiel",
+        "en": "Partially Funded"
+      },
+      "organizer": {
+        "ar": "المعهد التونسي للزراعة الخضراء",
+        "fr": "Institut Tunisien de l'Agriculture Verte",
+        "en": "Tunisian Institute of Green Agriculture"
+      },
+      "openDate": "2026-05-15",
+      "value": {
+        "ar": "تمويل جزئي 5,000$",
+        "fr": "Financement partiel de 5 000 $",
+        "en": "Partial funding $5,000"
+      },
+      "description": {
+        "ar": "برنامج تدريبي مكثف لمدة شهرين حول تقنيات الزراعة المستدامة وإدارة الموارد المائية، موجه للمزارعين الشباب والخريجين الجدد.",
+        "fr": "Programme de formation intensif de deux mois sur les techniques d'agriculture durable et la gestion des ressources en eau, destiné aux jeunes agriculteurs et aux nouveaux diplômés.",
+        "en": "An intensive two-month training program on sustainable agriculture techniques and water resource management, aimed at young farmers and fresh graduates."
+      },
+      "requirements": {
+        "ar": ["شهادة جامعية أو خبرة عملية", "التزام بالحضور الكامل", "إقامة في تونس أو دولة مجاورة"],
+        "fr": ["Diplôme universitaire ou expérience pratique", "Engagement à une assiduité complète", "Résidence en Tunisie ou dans un pays voisin"],
+        "en": ["University degree or practical experience", "Commitment to full attendance", "Residency in Tunisia or a neighboring country"]
+      },
+      "benefits": {
+        "ar": ["تدريب عملي ميداني", "دعم جزئي لتكاليف السفر", "فرصة توظيف بعد التدريب"],
+        "fr": ["Formation pratique sur le terrain", "Soutien partiel pour les frais de voyage", "Opportunité d'emploi après la formation"],
+        "en": ["Hands-on field training", "Partial support for travel expenses", "Employment opportunity after training"]
+      }
+    },
+    {
+      "id": 3,
+      "image": "water_innovation_contest.jpg",
+      "title": {
+        "ar": "مسابقة الابتكار في إدارة المياه",
+        "fr": "Concours d'innovation en gestion de l'eau",
+        "en": "Water Management Innovation Competition"
+      },
+      "type": {
+        "ar": "مسابقة",
+        "fr": "Concours",
+        "en": "Competition"
+      },
+      "country": {
+        "ar": "الأردن",
+        "fr": "Jordanie",
+        "en": "Jordan"
+      },
+      "deadline": "2026-09-01",
+      "funded": {
+        "ar": "ممولة بالكامل",
+        "fr": "Entièrement financée",
+        "en": "Fully Funded"
+      },
+      "organizer": {
+        "ar": "شبكة الابتكار البيئي الأردنية",
+        "fr": "Réseau Jordanien d'Innovation Environnementale",
+        "en": "Jordanian Environmental Innovation Network"
+      },
+      "openDate": "2026-06-10",
+      "value": {
+        "ar": "جائزة 20,000$",
+        "fr": "Prix de 20 000 $",
+        "en": "$20,000 Prize"
+      },
+      "description": {
+        "ar": "مسابقة إقليمية تستهدف الفرق الشابة المبتكرة في حلول إدارة المياه وترشيد الاستهلاك، مع دعم كامل للفرق الفائزة لتطوير حلولها.",
+        "fr": "Concours régional ciblant les jeunes équipes innovantes dans les solutions de gestion de l'eau et de rationalisation de la consommation, avec un soutien complet aux équipes gagnantes pour développer leurs solutions.",
+        "en": "Regional competition targeting innovative youth teams in water management and conservation solutions, with full support for winning teams to develop their solutions."
+      },
+      "requirements": {
+        "ar": ["فريق من 2 إلى 5 أشخاص", "نموذج أولي للحل أو فكرة موثقة", "تقديم عرض تقديمي أمام لجنة التحكيم"],
+        "fr": ["Équipe de 2 à 5 personnes", "Prototype de la solution ou idée documentée", "Présentation devant le jury"],
+        "en": ["Team of 2 to 5 people", "A prototype of the solution or a documented idea", "Pitch presentation before the judging panel"]
+      },
+      "benefits": {
+        "ar": ["جائزة مالية للفرق الفائزة", "حاضنة أعمال لمدة 6 أشهر", "شبكة علاقات مع مستثمرين"],
+        "fr": ["Prix financier pour les équipes gagnantes", "Incubateur d'entreprises pendant 6 mois", "Réseautage avec des investisseurs"],
+        "en": ["Financial prize for winning teams", "Business incubator for 6 months", "Networking network with investors"]
+      }
+    },
+    {
+      "id": 4,
+      "image": "green_entrepreneurship.jpg",
+      "title": {
+        "ar": "منحة ريادة الأعمال الخضراء",
+        "fr": "Bourse d'entrepreneuriat vert",
+        "en": "Green Entrepreneurship Grant"
+      },
+      "type": {
+        "ar": "منحة",
+        "fr": "Bourse",
+        "en": "Grant"
+      },
+      "country": {
+        "ar": "مصر",
+        "fr": "Égypte",
+        "en": "Egypt"
+      },
+      "deadline": "2026-07-10",
+      "funded": {
+        "ar": "غير ممولة",
+        "fr": "Non financée",
+        "en": "Unfunded"
+      },
+      "organizer": {
+        "ar": "مركز ريادة الأعمال البيئية",
+        "fr": "Centre d'Entrepreneuriat Environnemental",
+        "en": "Environmental Entrepreneurship Center"
+      },
+      "openDate": "2026-04-20",
+      "value": {
+        "ar": "تحت التقييم",
+        "fr": "Sous évaluation",
+        "en": "Under evaluation"
+      },
+      "description": {
+        "ar": "منحة دعم لرواد الأعمال الشباب أصحاب المشاريع الناشئة في مجال الاستدامة، حالياً قيد البحث عن تمويل إضافي من شركاء جدد.",
+        "fr": "Bourse de soutien pour les jeunes entrepreneurs ayant des projets de startup dans le domaine de la durabilité, actuellement à la recherche de financements supplémentaires auprès de nouveaux partenaires.",
+        "en": "Support grant for young entrepreneurs with startup projects in sustainability, currently seeking additional funding from new partners."
+      },
+      "requirements": {
+        "ar": ["مشروع ناشئ مسجل أو قيد التسجيل", "خطة عمل واضحة", "إقامة في مصر"],
+        "fr": ["Startup enregistrée ou en cours d'enregistrement", "Plan d'affaires clair", "Résidence en Égypte"],
+        "en": ["Registered or pending startup project", "Clear business plan", "Residency in Egypt"]
+      },
+      "benefits": {
+        "ar": ["استشارات مجانية", "فرصة عرض المشروع على مستثمرين", "تمويل محتمل عند توفره"],
+        "fr": ["Consultations gratuites", "Opportunité de présenter le projet à des investisseurs", "Financement potentiel selon disponibilité"],
+        "en": ["Free consultations", "Opportunity to pitch the project to investors", "Potential funding when available"]
+      }
+    },
+    {
+      "id": 5,
+      "image": "solar_training_beginners.jpg",
+      "title": {
+        "ar": "تدريب على الطاقة الشمسية للمبتدئين",
+        "fr": "Formation en énergie solaire pour débutants",
+        "en": "Solar Energy Training for Beginners"
+      },
+      "type": {
+        "ar": "تدريب",
+        "fr": "Formation",
+        "en": "Training"
+      },
+      "country": {
+        "ar": "السعودية",
+        "fr": "Arabie Saoudite",
+        "en": "Saudi Arabia"
+      },
+      "deadline": "2026-08-30",
+      "funded": {
+        "ar": "تمويل جزئي",
+        "fr": "Financement partiel",
+        "en": "Partially Funded"
+      },
+      "organizer": {
+        "ar": "أكاديمية الطاقة المتجددة السعودية",
+        "fr": "Académie Saoudienne des Énergies Renouvelables",
+        "en": "Saudi Renewable Energy Academy"
+      },
+      "openDate": "2026-06-05",
+      "value": {
+        "ar": "تمويل جزئي 3,000$",
+        "fr": "Financement partiel de 3 000 $",
+        "en": "Partial funding $3,000"
+      },
+      "description": {
+        "ar": "دورة تدريبية للمبتدئين تغطي أساسيات تركيب وصيانة الأنظمة الشمسية المنزلية، مع شهادة معتمدة في نهاية البرنامج.",
+        "fr": "Cours de formation pour débutants couvrant les bases de l'installation et de la maintenance des systèmes solaires résidentiels, avec un certificat approuvé à la fin du programme.",
+        "en": "A training course for beginners covering the basics of installation and maintenance of residential solar systems, with a certified certificate at the end of the program."
+      },
+      "requirements": {
+        "ar": ["لا حاجة لخبرة سابقة", "العمر فوق 18 سنة", "إقامة في السعودية"],
+        "fr": ["Aucune expérience préalable requise", "Âge supérieur à 18 ans", "Résidence en Arabie Saoudite"],
+        "en": ["No prior experience needed", "Age over 18 years", "Residency in Saudi Arabia"]
+      },
+      "benefits": {
+        "ar": ["مواد تدريبية مجانية", "خصم على رسوم الشهادة", "فرص توظيف لدى شركاء الأكاديمية"],
+        "fr": ["Matériel de formation gratuit", "Réduction sur les frais de certificat", "Opportunités d'emploi chez les partenaires de l'académie"],
+        "en": ["Free training materials", "Discount on certificate fees", "Employment opportunities with Academy partners"]
+      }
+    },
+    {
+      "id": 6,
+      "image": "recycling_ideas_contest.jpg",
+      "title": {
+        "ar": "مسابقة أفكار إعادة التدوير",
+        "fr": "Concours d'idées de recyclage",
+        "en": "Recycling Ideas Competition"
+      },
+      "type": {
+        "ar": "مسابقة",
+        "fr": "Concours",
+        "en": "Competition"
+      },
+      "country": {
+        "ar": "لبنان",
+        "fr": "Liban",
+        "en": "Lebanon"
+      },
+      "deadline": "2026-07-05",
+      "funded": {
+        "ar": "ممولة بالكامل",
+        "fr": "Entièrement financée",
+        "en": "Fully Funded"
+      },
+      "organizer": {
+        "ar": "جمعية البيئة اللبنانية",
+        "fr": "Association Libanaise pour l'Environnement",
+        "en": "Lebanese Environment Association"
+      },
+      "openDate": "2026-05-01",
+      "value": {
+        "ar": "جائزة 8,000$",
+        "fr": "Prix de 8 000 $",
+        "en": "$8,000 Prize"
+      },
+      "description": {
+        "ar": "مسابقة مفتوحة للأفكار المبتكرة في إعادة تدوير النفايات المنزلية والصناعية، تستهدف الطلاب والخريجين الجدد.",
+        "fr": "Concours ouvert aux idées innovantes en matière de recyclage des déchets ménagers et industriels, ciblant les étudiants et les nouveaux diplômés.",
+        "en": "An open competition for innovative ideas in recycling domestic and industrial waste, targeting students and fresh graduates."
+      },
+      "requirements": {
+        "ar": ["تقديم فردي أو جماعي", "وصف مكتوب للفكرة (صفحتان كحد أقصى)", "فيديو قصير اختياري"],
+        "fr": ["Soumission individuelle ou collective", "Description écrite de l'idée (2 pages maximum)", "Courte vidéo facultative"],
+        "en": ["Individual or group submission", "Written description of the idea (maximum 2 pages)", "Optional short video"]
+      },
+      "benefits": {
+        "ar": ["جائزة مالية", "تغطية إعلامية للفكرة الفائزة", "ورشة تطوير مشاريع مجانية"],
+        "fr": ["Prix financier", "Couverture médiatique de l'idée gagnante", "Atelier gratuit de développement de projet"],
+        "en": ["Financial prize", "Media coverage for the winning idea", "Free project development workshop"]
+      }
+    },
+    {
+      "id": 7,
+      "image": "climate_studies_scholarship.jpg",
+      "title": {
+        "ar": "منحة دراسات المناخ والاستدامة",
+        "fr": "Bourse d'études sur le climat et la durabilité",
+        "en": "Climate and Sustainability Studies Scholarship"
+      },
+      "type": {
+        "ar": "منحة",
+        "fr": "Bourse",
+        "en": "Scholarship"
+      },
+      "country": {
+        "ar": "الإمارات",
+        "fr": "Émirats Arabes Unis",
+        "en": "UAE"
+      },
+      "deadline": "2026-10-12",
+      "funded": {
+        "ar": "ممولة بالكامل",
+        "fr": "Entièrement financée",
+        "en": "Fully Funded"
+      },
+      "organizer": {
+        "ar": "مركز دراسات المناخ الإقليمي",
+        "fr": "Centre Régional d'Études Climatiques",
+        "en": "Regional Climate Studies Center"
+      },
+      "openDate": "2026-06-15",
+      "value": {
+        "ar": "12,000$",
+        "fr": "12 000 $",
+        "en": "12,000$"
+      },
+      "description": {
+        "ar": "منحة بحثية للطلاب والباحثين الشباب المهتمين بدراسة تأثيرات التغير المناخي على المنطقة العربية واقتراح حلول تكيف عملية.",
+        "fr": "Bourse de recherche pour les étudiants et les jeunes chercheurs intéressés par l'étude des impacts du changement climatique sur la région arabe et la proposition de solutions d'adaptation pratiques.",
+        "en": "Research grant for students and young researchers interested in studying the impacts of climate change on the Arab region and proposing practical adaptation solutions."
+      },
+      "requirements": {
+        "ar": ["طالب دراسات عليا أو باحث مستقل", "مقترح بحثي أولي", "إجادة الكتابة الأكاديمية"],
+        "fr": ["Étudiant de troisième cycle ou chercheur indépendant", "Proposition de recherche initiale", "Maîtrise de l'écriture académique"],
+        "en": ["Postgraduate student or independent researcher", "Initial research proposal", "Proficiency in academic writing"]
+      },
+      "benefits": {
+        "ar": ["تمويل كامل للبحث", "نشر النتائج في مجلة شريكة", "مشاركة في مؤتمر إقليمي"],
+        "fr": ["Financement complet de la recherche", "Publication des résultats dans une revue partenaire", "Participation à une conférence régionale"],
+        "en": ["Full funding for the research", "Publication of results in a partner journal", "Participation in a regional conference"]
+      }
+    },
+    {
+      "id": 8,
+      "image": "vertical_farming_training.jpg",
+      "title": {
+        "ar": "برنامج تدريب الزراعة العمودية",
+        "fr": "Programme de formation en agriculture verticale",
+        "en": "Vertical Farming Training Program"
+      },
+      "type": {
+        "ar": "تدريب",
+        "fr": "Formation",
+        "en": "Training"
+      },
+      "country": {
+        "ar": "المغرب",
+        "fr": "Maroc",
+        "en": "Morocco"
+      },
+      "deadline": "2026-09-18",
+      "funded": {
+        "ar": "غير ممولة",
+        "fr": "Non financée",
+        "en": "Unfunded"
+      },
+      "organizer": {
+        "ar": "مختبر الزراعة الحضرية",
+        "fr": "Laboratoire d'Agriculture Urbaine",
+        "en": "Urban Agriculture Lab"
+      },
+      "openDate": "2026-06-01",
+      "value": {
+        "ar": "تحت التقييم",
+        "fr": "Sous évaluation",
+        "en": "Under evaluation"
+      },
+      "description": {
+        "ar": "برنامج تدريبي حول تقنيات الزراعة العمودية والحضرية، يهدف لتمكين الشباب من إنشاء مشاريع زراعية في المساحات المحدودة.",
+        "fr": "Programme de formation sur les techniques d'agriculture verticale et urbaine, visant à permettre aux jeunes de créer des projets agricoles dans des espaces limités.",
+        "en": "Training program on vertical and urban farming techniques, aiming to empower youth to establish agricultural projects in limited spaces."
+      },
+      "requirements": {
+        "ar": ["اهتمام بالزراعة الحضرية", "إقامة في المغرب", "التزام بثلاث جلسات أسبوعياً"],
+        "fr": ["Intérêt pour l'agriculture urbaine", "Résidence au Maroc", "Engagement à trois séances par semaine"],
+        "en": ["Interest in urban agriculture", "Residency in Morocco", "Commitment to three sessions per week"]
+      },
+      "benefits": {
+        "ar": ["تدريب عملي في مختبر حقيقي", "دليل إرشادي مجاني", "متابعة بعد التدريب"],
+        "fr": ["Formation pratique dans un vrai laboratoire", "Guide d'apprentissage gratuit", "Suivi après la formation"],
+        "en": ["Practical training in a real lab", "Free instructional guide", "Follow-up after training"]
+      }
+    },
+    {
+      "id": 9,
+      "image": "eco_startups_competition.jpg",
+      "title": {
+        "ar": "مسابقة المشاريع البيئية الناشئة",
+        "fr": "Concours de startups environnementales",
+        "en": "Eco-Startups Competition"
+      },
+      "type": {
+        "ar": "مسابقة",
+        "fr": "Concours",
+        "en": "Competition"
+      },
+      "country": {
+        "ar": "مصر",
+        "fr": "Égypte",
+        "en": "Egypt"
+      },
+      "deadline": "2026-08-22",
+      "funded": {
+        "ar": "تمويل جزئي",
+        "fr": "Financement partiel",
+        "en": "Partially Funded"
+      },
+      "organizer": {
+        "ar": "حاضنة المشاريع الخضراء المصرية",
+        "fr": "Incubateur Égyptien de Projets Verts",
+        "en": "Egyptian Green Projects Incubator"
+      },
+      "openDate": "2026-06-12",
+      "value": {
+        "ar": "تمويل جزئي حتى 10,000$",
+        "fr": "Financement partiel jusqu'à 10 000 $",
+        "en": "Partial funding up to $10,000"
+      },
+      "description": {
+        "ar": "مسابقة سنوية للمشاريع الناشئة في القطاع البيئي، تمنح الفرق المختارة دعماً جزئياً واحتضاناً لتطوير نماذجها الأولية.",
+        "fr": "Concours annuel pour les startups du secteur environnemental, accordant aux équipes sélectionnées un soutien partiel et une incubation pour développer leurs prototypes.",
+        "en": "An annual competition for startups in the environmental sector, granting selected teams partial support and incubation to develop their prototypes."
+      },
+      "requirements": {
+        "ar": ["مشروع في مرحلة مبكرة", "فريق مكون من شخصين على الأقل", "حضور جلسة تقييم حضورية أو عن بعد"],
+        "fr": ["Projet à un stade précoce", "Équipe composée d'au moins deux personnes", "Participation à une séance d'évaluation en personne ou à distance"],
+        "en": ["Project at an early stage", "Team consisting of at least two people", "Attendance at an evaluation session in person or remotely"]
+      },
+      "benefits": {
+        "ar": ["دعم مالي جزئي", "مساحة عمل مشتركة لمدة 3 أشهر", "إرشاد من رواد أعمال"],
+        "fr": ["Soutien financier partiel", "Espace de cotravail pendant 3 mois", "Mentorat par des entrepreneurs"],
+        "en": ["Partial financial support", "Co-working space for 3 months", "Mentorship from entrepreneurs"]
+      }
+    },
+    {
+      "id": 10,
+      "image": "biodiversity_research_grant.jpg",
+      "title": {
+        "ar": "منحة بحثية في التنوع البيولوجي",
+        "fr": "Bourse de recherche en biodiversité",
+        "en": "Biodiversity Research Grant"
+      },
+      "type": {
+        "ar": "منحة",
+        "fr": "Bourse",
+        "en": "Grant"
+      },
+      "country": {
+        "ar": "تونس",
+        "fr": "Tunisie",
+        "en": "Tunisia"
+      },
+      "deadline": "2026-11-01",
+      "funded": {
+        "ar": "ممولة بالكامل",
+        "fr": "Entièrement financée",
+        "en": "Fully Funded"
+      },
+      "organizer": {
+        "ar": "المرصد التونسي للتنوع البيولوجي",
+        "fr": "Observatoire Tunisien de la Biodiversité",
+        "en": "Tunisian Biodiversity Observatory"
+      },
+      "openDate": "2026-07-01",
+      "value": {
+        "ar": "10,000$",
+        "fr": "10 000 $",
+        "en": "10,000$"
+      },
+      "description": {
+        "ar": "منحة بحثية تستهدف الباحثين الشباب المهتمين بدراسة وحماية التنوع البيولوجي في النظم البيئية الساحلية والصحراوية.",
+        "fr": "Bourse de recherche ciblant les jeunes chercheurs intéressés par l'étude et la protection de la biodiversité dans les écosystèmes côtiers et désertiques.",
+        "en": "Research grant targeting young researchers interested in studying and protecting biodiversity in coastal and desert ecosystems."
+      },
+      "requirements": {
+        "ar": ["خلفية علمية في البيئة أو الأحياء", "مقترح بحثي موثق", "التزام بإنجاز البحث خلال سنة"],
+        "fr": ["Bagage scientifique en environnement ou en biologie", "Proposition de recherche documentée", "Engagement à réaliser la recherche en un ans"],
+        "en": ["Scientific background in environment or biology", "Documented research proposal", "Commitment to complete the research within one year"]
+      },
+      "benefits": {
+        "ar": ["تمويل كامل للبحث الميداني", "دعم لوجستي", "فرصة نشر علمي"],
+        "fr": ["Financement complet de la recherche sur le terrain", "Soutien logistique", "Opportunité de publication scientifique"],
+        "en": ["Full funding for field research", "Logistical support", "Scientific publication opportunity"]
+      }
+    }
+  ]
