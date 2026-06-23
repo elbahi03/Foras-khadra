@@ -50,9 +50,9 @@ function Header() {
                     value={i18n.language}
                     onChange={(e) => changeLanguage(e.target.value)}
                 >
+                    <option value="en">{t("en")}</option>
                     <option value="ar">{t("ar")}</option>
                     <option value="fr">{t("fr")}</option>
-                    <option value="en">{t("en")}</option>
                 </select>
             </nav>
         </header>

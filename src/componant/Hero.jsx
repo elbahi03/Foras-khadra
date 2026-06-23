@@ -18,6 +18,7 @@ export default function Hero() {
     return (
         <div className="hero-wrapper">
             <Swiper
+                dir="ltr"
                 pagination={{ dynamicBullets: true }}
                 autoplay={{ delay: 4000, disableOnInteraction: false }}
                 modules={[Pagination, Autoplay]}
