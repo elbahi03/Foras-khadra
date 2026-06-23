@@ -1,0 +1,89 @@
+.fk-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: transform .18s ease, box-shadow .18s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.fk-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px -14px rgba(28, 36, 32, 0.25);
+}
+
+.fk-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.fk-type-tag {
+    background: var(--green-soft);
+    color: var(--green-deep);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.fk-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--ink);
+}
+
+.fk-meta-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--ink-soft);
+    font-size: 13px;
+}
+
+.fk-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px dashed var(--line);
+}
+
+.fk-fund-dot {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.fk-fund-dot .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fk-card-btn {
+    background: var(--orange);
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: opacity .15s;
+}
+
+.fk-card-btn:hover {
+    opacity: 0.88;
+}

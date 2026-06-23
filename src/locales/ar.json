@@ -8,5 +8,19 @@
     "ar": "العربية",
     "siteName": "فرص خضراء",
     "heroTitle": "معا نحو مستقبل أخضر",
-    "volunteerNow": "تطوع الآن"
+    "volunteerNow": "تطوع الآن",
+    "deadline": "الموعد النهائي",
+    "viewDetails": "عرض التفاصيل",
+    "location": "الموقع",
+    "organizer": "المنظم",
+    "openDate": "تاريخ البداية",
+    "value": "القيمة",
+    "requirements": "المتطلبات",
+    "benefits": "الفوائد",
+    "funded": "التمويل",
+    "fullyFunded": "ممولة بالكامل",
+    "partiallyFunded": "تمويل جزئي",
+    "unfunded": "غير ممولة",
+    "latestOpportunities": "أحدث الفرص",
+    "discoverMore": "إكتشف فرص أخرى"
 }

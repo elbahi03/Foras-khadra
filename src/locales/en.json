@@ -8,5 +8,19 @@
     "ar": "Arabic",
     "siteName": "Green Opportunities",
     "heroTitle": "Together Towards a Greener Future",
-    "volunteerNow": "Volunteer Now"
+    "volunteerNow": "Volunteer Now",
+    "deadline": "Deadline",
+    "viewDetails": "View Details",
+    "location": "Location",
+    "organizer": "Organizer",
+    "openDate": "Start Date",
+    "value": "Value",
+    "requirements": "Requirements",
+    "benefits": "Benefits",
+    "funded": "Funding",
+    "fullyFunded": "Fully Funded",
+    "partiallyFunded": "Partially Funded",
+    "unfunded": "Unfunded",
+    "latestOpportunities": "Latest Opportunities",
+    "discoverMore": "Discover More Opportunities"
 }

@@ -4,6 +4,8 @@ import { useTranslation } from "react-i18next";
 import './App.css'
 import Header from "./componant/Header";
 import Hero from "./componant/hero";
+import Cart from "./componant/cart";
+import Last from "./componant/last";
 
 function App() {
   const { i18n } = useTranslation();
@@ -16,6 +18,7 @@ function App() {
     <>
        <Header/>
        <Hero/>
+       <Last/>
     </>
   )
 }

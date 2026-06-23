@@ -1,4 +1,4 @@
-[
+  export const OPPORTUNITIES = [
     {
       "id": 1,
       "image": "youth_renewable_energy.jpg",
@@ -509,4 +509,16 @@
         "en": ["Full funding for field research", "Logistical support", "Scientific publication opportunity"]
       }
     }
-  ]
+  ] ;
+
+  export const FUND_COLOR = {
+    "ممولة بالكامل": "#2F7A4F",
+    "تمويل جزئي":    "#E08A2B",
+    "غير ممولة":     "#B5482F",
+    "Entièrement financée": "#2F7A4F",
+    "Financement partiel":  "#E08A2B",
+    "Non financée":         "#B5482F",
+    "Fully Funded":     "#2F7A4F",
+    "Partially Funded": "#E08A2B",
+    "Unfunded":         "#B5482F",
+  };
