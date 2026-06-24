@@ -30,7 +30,7 @@ export default function Cart({opportunity}) {
                 <Clock size={14} />
                 <span>
                     {t("deadline")}:{" "}
-                    {formatDate(opportunity.deadline)}
+                    {formatDate(opportunity.deadline, lang)}
                 </span>
             </div>
             <div className="fk-card-footer">
