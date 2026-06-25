@@ -22,5 +22,19 @@
     "partiallyFunded": "Financement partiel",
     "unfunded": "Non financée",
     "latestOpportunities": "Dernières opportunités",
-    "discoverMore": "Découvrez d'autres opportunités"
+    "discoverMore": "Découvrez d'autres opportunités",
+    "greenOpportunities": "Opportunités Vertes",
+    "opportunitiesTitle": "Bourses et opportunités environnementales pour les jeunes du monde arabe",
+    "opportunitiesSubtitle": "Plus de 800 opportunités dans les énergies renouvelables, la durabilité et l’agriculture.",
+    "searchPlaceholder": "Rechercher une opportunité",
+    "filter": "Filtrer",
+    "type": "Type",
+    "fundingStatus": "Financement",
+    "clearFilters": "Effacer les filtres",
+    "availableOpportunities": "opportunités disponibles",
+    "noResults": "Aucune opportunité trouvée.",
+    "all": "Tous",
+    "scholarship": "Bourse",
+    "training": "Formation",
+    "competition": "Concours"
 }

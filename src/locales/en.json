@@ -22,5 +22,19 @@
     "partiallyFunded": "Partially Funded",
     "unfunded": "Unfunded",
     "latestOpportunities": "Latest Opportunities",
-    "discoverMore": "Discover More Opportunities"
+    "discoverMore": "Discover More Opportunities",
+    "greenOpportunities": "Green Opportunities",
+    "opportunitiesTitle": "Environmental Opportunities and Scholarships for Arab Youth",
+    "opportunitiesSubtitle": "More than 800 opportunities in renewable energy, sustainability, and agriculture.",
+    "searchPlaceholder": "Search for an opportunity",
+    "filter": "Filter",
+    "type": "Type",
+    "fundingStatus": "Funding Status",
+    "clearFilters": "Clear Filters",
+    "availableOpportunities": "available opportunities",
+    "noResults": "No opportunities found.",
+    "all": "All",
+    "scholarship": "Scholarship",
+    "training": "Training",
+    "competition": "Competition"
 }

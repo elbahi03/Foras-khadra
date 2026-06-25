@@ -6,6 +6,7 @@ import Header from "./componant/Header";
 import Hero from "./componant/hero";
 import Cart from "./componant/cart";
 import Last from "./componant/last";
+import OpportunitiesPage from "./page/opportinites";
 
 function App() {
   const { i18n } = useTranslation();
@@ -17,8 +18,7 @@ function App() {
   return (
     <>
        <Header/>
-       <Hero/>
-       <Last/>
+       <OpportunitiesPage/>
     </>
   )
 }
