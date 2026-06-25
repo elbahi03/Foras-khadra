@@ -43,5 +43,19 @@
     "aboutOpportunity": "À propos de l'opportunité",
     "applyNow": "Postuler à cette opportunité",
     "share": "Partager",
-    "backToOpportunities": "Retour aux opportunités"
+    "backToOpportunities": "Retour aux opportunités",
+    "fillForm": "Remplissez le formulaire ci-dessous",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "Ex: Ahmed Ben Ali",
+    "phone": "Numéro de téléphone",
+    "phonePlaceholder": "Ex: +212 6 00 00 00 00",
+    "email": "Adresse email",
+    "emailPlaceholder": "Ex: ahmed@email.com",
+    "countryPlaceholder": "Ex: Maroc",
+    "submit": "Envoyer la candidature",
+    "cancel": "Annuler",
+    "opportunityNotFound": "Opportunité introuvable",
+    "errorRequired": "Ce champ est obligatoire",
+    "errorPhone": "Le numéro doit commencer par + suivi de chiffres",
+    "errorEmail": "Adresse email invalide"
 }

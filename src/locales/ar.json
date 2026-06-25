@@ -43,5 +43,19 @@
     "aboutOpportunity": "نبذة عن الفرصة",
     "applyNow": "التقديم على هذه الفرصة",
     "share": "مشاركة",
-    "backToOpportunities": "العودة للفرص"
+    "backToOpportunities": "العودة للفرص",
+    "fillForm": "املأ النموذج أدناه",
+    "fullName": "الاسم الكامل",
+    "fullNamePlaceholder": "مثال: أحمد بن علي",
+    "phone": "رقم الهاتف",
+    "phonePlaceholder": "مثال: 00212600000000+",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "مثال: ahmed@email.com",
+    "countryPlaceholder": "مثال: المغرب",
+    "submit": "إرسال الطلب",
+    "cancel": "إلغاء",
+    "opportunityNotFound": "الفرصة غير موجودة",
+    "errorRequired": "هذا الحقل إلزامي",
+    "errorPhone": "يجب أن يبدأ الرقم بـ + ويحتوي على أرقام فقط",
+    "errorEmail": "البريد الإلكتروني غير صحيح"
 }

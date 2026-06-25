@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
 
-/* ==============================
-   HEADER
-============================== */
 .header {
   position: sticky;
   top: 0;
@@ -172,10 +169,12 @@
 .menu-toggle.open span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
+
 .menu-toggle.open span:nth-child(2) {
   opacity: 0;
   transform: scaleX(0);
 }
+
 .menu-toggle.open span:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
 }
@@ -186,7 +185,8 @@
 @media (max-width: 768px) {
   .header {
     padding: 0 18px;
-    position: relative;
+    position: sticky;
+    z-index: 100;
   }
 
   .menu-toggle {

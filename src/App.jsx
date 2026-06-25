@@ -19,11 +19,13 @@ function App() {
   return (
     <>
        <Header/>
+       <div style={{ isolation: "isolate" }}>
        <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/opportunities" element={<OpportunitiesPage />} />
         <Route path="/opportunities/:id" element={<Details />} />
       </Routes>
+      </div>
     </>
   )
 }

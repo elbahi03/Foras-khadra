@@ -9,22 +9,20 @@ import {
     Leaf,
     Share2,
 } from "lucide-react";
-
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useParams } from "react-router-dom";
-
 import { OPPORTUNITIES, FUND_COLOR } from "../data/data";
 import { formatDate } from "../data/formatDate";
-
 import "../style/detail.css";
+import Form from "../componant/form";
 
 export default function OpportunityDetail() {
     const { t, i18n } = useTranslation();
     const lang = i18n.language;
-
     const navigate = useNavigate();
     const { id } = useParams();
-
+    const [showForm, setShowForm] = useState(false);
     const o = OPPORTUNITIES.find(
         (item) => item.id === Number(id)
     );
@@ -185,7 +183,8 @@ export default function OpportunityDetail() {
                 </div>
 
                 <div className="fk-detail-actions">
-                    <button className="fk-apply-btn">
+                    {showForm && <Form onClose={() => setShowForm(false)} />}
+                    <button className="fk-apply-btn" onClick={() => setShowForm(true)}>
                         {t("applyNow")}
                     </button>
 
