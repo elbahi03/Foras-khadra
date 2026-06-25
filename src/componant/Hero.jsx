@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { useTranslation } from 'react-i18next';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import '../style/Hero.css';
+import '../style/section.css';
 import hero1 from '../asset/hero/hero1.jpg';
 import hero2 from '../asset/hero/hero2.jpg';
 import hero3 from '../asset/hero/hero3.jpg';
