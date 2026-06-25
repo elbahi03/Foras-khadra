@@ -57,5 +57,7 @@
     "opportunityNotFound": "Opportunité introuvable",
     "errorRequired": "Ce champ est obligatoire",
     "errorPhone": "Le numéro doit commencer par + suivi de chiffres",
-    "errorEmail": "Adresse email invalide"
+    "errorEmail": "Adresse email invalide",
+    "successTitle": "Candidature envoyée avec succès !",
+    "successMessage": "Merci pour votre candidature, les organisateurs vous contacteront prochainement."
 }

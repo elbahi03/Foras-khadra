@@ -57,5 +57,7 @@
     "opportunityNotFound": "Opportunity not found",
     "errorRequired": "This field is required",
     "errorPhone": "Phone must start with + followed by digits",
-    "errorEmail": "Invalid email address"
+    "errorEmail": "Invalid email address",
+    "successTitle": "Application submitted successfully!",
+    "successMessage": "Thank you for applying, the organizers will contact you soon."
 }

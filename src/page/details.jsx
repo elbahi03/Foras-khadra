@@ -187,11 +187,6 @@ export default function OpportunityDetail() {
                     <button className="fk-apply-btn" onClick={() => setShowForm(true)}>
                         {t("applyNow")}
                     </button>
-
-                    <button className="fk-share-btn">
-                        <Share2 size={16} />
-                        {t("share")}
-                    </button>
                 </div>
             </div>
         </div>

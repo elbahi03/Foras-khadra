@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../style/form.css";
+import Validee from "./valide";
 
 export default function Form({ onClose }) {
     const { t } = useTranslation();
@@ -13,6 +14,7 @@ export default function Form({ onClose }) {
     });
 
     const [errors, setErrors] = useState({});
+    const [submitted, setSubmitted] = useState(false);
 
     function validate() {
         const newErrors = {};
@@ -48,7 +50,10 @@ export default function Form({ onClose }) {
             setErrors(newErrors);
             return;
         }
+        console.log("Form submitted:", values);
+        setSubmitted(true);
     }
+    if (submitted) return <Validee onClose={onClose} />;
 
     return (
         <div className="fk-form-overlay">
