@@ -6,8 +6,7 @@ import {
     Wallet,
     Building2,
     CheckCircle2,
-    Leaf,
-    Share2,
+    Leaf
 } from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";

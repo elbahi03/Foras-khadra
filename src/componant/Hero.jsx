@@ -1,4 +1,3 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useTranslation } from 'react-i18next';
 import 'swiper/css';

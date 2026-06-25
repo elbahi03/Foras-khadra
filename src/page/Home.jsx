@@ -1,4 +1,3 @@
-import React from 'react'
 import Last from "../componant/last";
 import Hero from "../componant/Hero";
 
