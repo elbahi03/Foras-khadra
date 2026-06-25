@@ -3,12 +3,19 @@ import { useTranslation } from "react-i18next";
 import { FUND_COLOR } from "../data/data";
 import { formatDate } from "../data/formatDate";
 import "../style/cart.css";
+import { useNavigate } from "react-router-dom";
+
 
 
 export default function Cart({opportunity}) {
 
     const { t, i18n } = useTranslation();
     const lang = i18n.language;
+    const navigate = useNavigate();
+
+    const handleClick = (id) => {
+        navigate(`/opportunities/${id}`);
+    };
 
     return (
         <div className="fk-card">
@@ -51,7 +58,7 @@ export default function Cart({opportunity}) {
                         {opportunity.funded[lang]}
                     </span>
                 </div>
-                <button className="fk-card-btn">
+                <button className="fk-card-btn" onClick={() => handleClick(opportunity.id)}>
                     {t("viewDetails")}
                 </button>
             </div>

@@ -36,5 +36,12 @@
     "all": "All",
     "scholarship": "Scholarship",
     "training": "Training",
-    "competition": "Competition"
+    "competition": "Competition",
+    "organizedBy": "Organisé par",
+    "country": "Pays",
+    "supportValue": "Valeur du financement",
+    "aboutOpportunity": "À propos de l'opportunité",
+    "applyNow": "Postuler à cette opportunité",
+    "share": "Partager",
+    "backToOpportunities": "Retour aux opportunités"
 }

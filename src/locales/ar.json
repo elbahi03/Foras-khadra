@@ -36,5 +36,12 @@
     "competition": "مسابقة",
     "fullyFunded": "ممولة بالكامل",
     "partiallyFunded": "تمويل جزئي",
-    "unfunded": "غير ممولة"
+    "unfunded": "غير ممولة",
+    "organizedBy": "بإشراف",
+    "country": "الدولة",
+    "supportValue": "قيمة الدعم",
+    "aboutOpportunity": "نبذة عن الفرصة",
+    "applyNow": "التقديم على هذه الفرصة",
+    "share": "مشاركة",
+    "backToOpportunities": "العودة للفرص"
 }

@@ -36,5 +36,12 @@
     "all": "Tous",
     "scholarship": "Bourse",
     "training": "Formation",
-    "competition": "Concours"
+    "competition": "Concours",
+    "organizedBy": "Organisé par",
+    "country": "Pays",
+    "supportValue": "Valeur du financement",
+    "aboutOpportunity": "À propos de l'opportunité",
+    "applyNow": "Postuler à cette opportunité",
+    "share": "Partager",
+    "backToOpportunities": "Retour aux opportunités"
 }

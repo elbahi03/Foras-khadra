@@ -7,6 +7,7 @@ import Hero from "./componant/hero";
 import Cart from "./componant/cart";
 import Last from "./componant/last";
 import OpportunitiesPage from "./page/opportinites";
+import Details from "./page/details";
 
 function App() {
   const { i18n } = useTranslation();
@@ -18,7 +19,11 @@ function App() {
   return (
     <>
        <Header/>
-       <OpportunitiesPage/>
+       <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/opportunities" element={<OpportunitiesPage />} />
+        <Route path="/opportunities/:id" element={<Details />} />
+      </Routes>
     </>
   )
 }
