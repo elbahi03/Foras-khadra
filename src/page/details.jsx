@@ -12,7 +12,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useParams } from "react-router-dom";
 import { OPPORTUNITIES, FUND_COLOR } from "../data/data";
-import { formatDate } from "../data/formatDate";
+import { formatDate } from "../data/formatdate";
 import "../style/detail.css";
 import Form from "../componant/Form";
 

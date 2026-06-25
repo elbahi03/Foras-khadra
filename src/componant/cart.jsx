@@ -1,7 +1,7 @@
 import { MapPin, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { FUND_COLOR } from "../data/data";
-import { formatDate } from "../data/formatDate";
+import { formatDate } from "../data/formatdate";
 import "../style/cart.css";
 import { useNavigate } from "react-router-dom";
 
