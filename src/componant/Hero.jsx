@@ -40,7 +40,7 @@ export default function Hero() {
                     {t("heroTitle")}
                 </h3>
 
-                <button className="hero-btn">
+                <button className="hero-btn" onClick={() => window.location.href = "/opportunities"}>
                     {t("volunteerNow")}
                 </button>
             </div>

@@ -3,11 +3,9 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import './App.css'
 import Header from "./componant/Header";
-import Hero from "./componant/hero";
-import Cart from "./componant/cart";
-import Last from "./componant/last";
 import OpportunitiesPage from "./page/opportinites";
 import Details from "./page/details";
+import Home from "./page/Home";
 
 function App() {
   const { i18n } = useTranslation();
@@ -21,7 +19,7 @@ function App() {
        <Header/>
        <div style={{ isolation: "isolate" }}>
        <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<Home />} />
         <Route path="/opportunities" element={<OpportunitiesPage />} />
         <Route path="/opportunities/:id" element={<Details />} />
       </Routes>

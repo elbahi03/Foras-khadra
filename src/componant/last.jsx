@@ -4,7 +4,7 @@ import Quatre from "./quatre";
 import "../style/last.css";
 
 
-function last() {
+function Last() {
     const { t } = useTranslation();
     return (
         <>
@@ -19,10 +19,10 @@ function last() {
                     <h1>{t("latestOpportunities")}</h1>
                 </div>
                 <Quatre/>
-                <button>{t("discoverMore")}</button>
+                <button onClick={() => window.location.href = "/opportunities"}>{t("discoverMore")}</button>
             </div>
         </>
     )
 }
 
-export default last
+export default Last
