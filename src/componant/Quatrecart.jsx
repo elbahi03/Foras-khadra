@@ -1,4 +1,4 @@
-import Cart from "./Cart";
+import Cart from "./Cartopp";
 import { OPPORTUNITIES } from "../data/data";
 import "../style/quatre.css";
 
