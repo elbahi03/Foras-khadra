@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import Quatre from "./quatre";
+import Quatre from "./Quatre";
 import "../style/last.css";
 
 

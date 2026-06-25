@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { Search, Leaf, SlidersHorizontal, X } from "lucide-react";
 import { OPPORTUNITIES } from "../data/data";
-import Cart from "../componant/cart";
+import Cart from "../componant/Cart";
 import "../style/opport.css";
 
 const TYPES   = ["all", "scholarship", "training", "competition"];

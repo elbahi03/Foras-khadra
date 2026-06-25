@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../style/form.css";
-import Validee from "./valide";
+import Validee from "./Valide";
 
 export default function Form({ onClose }) {
     const { t } = useTranslation();

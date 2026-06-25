@@ -14,7 +14,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { OPPORTUNITIES, FUND_COLOR } from "../data/data";
 import { formatDate } from "../data/formatDate";
 import "../style/detail.css";
-import Form from "../componant/form";
+import Form from "../componant/Form";
 
 export default function OpportunityDetail() {
     const { t, i18n } = useTranslation();
