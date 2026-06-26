@@ -1,0 +1,125 @@
+.fk-footer {
+    background: var(--green-deep);
+    color: #EAF4EC;
+    font-family: 'Tajawal', 'Segoe UI', sans-serif;
+    padding: 48px 32px 0;
+    direction: rtl;
+    margin-top: 75px;
+  }
+  
+  .fk-footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.4fr;
+    gap: 48px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  /* ── Logo col ── */
+  .fk-footer-logo img {
+    height: 72px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 14px;
+    display: block;
+  }
+  
+  .fk-footer-desc {
+    font-size: 14px;
+    color: #CFE6D7;
+    line-height: 1.8;
+    margin: 0;
+  }
+  
+  /* ── Heading ── */
+  .fk-footer-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .fk-footer-heading h3 {
+    font-size: 17px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+  }
+  
+  /* ── Liens ── */
+  .fk-footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fk-footer-links a {
+    color: #CFE6D7;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color .15s;
+    width: fit-content;
+  }
+  .fk-footer-links a:hover {
+    color: var(--orange);
+  }
+  
+  /* ── Formulaire contact ── */
+  .fk-footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fk-footer-form input,
+  .fk-footer-form textarea {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-family: inherit;
+    font-size: 13px;
+    color: #fff;
+    outline: none;
+    resize: none;
+    transition: border-color .15s;
+  }
+  .fk-footer-form input::placeholder,
+  .fk-footer-form textarea::placeholder {
+    color: rgba(255,255,255,0.4);
+  }
+  .fk-footer-form input:focus,
+  .fk-footer-form textarea:focus {
+    border-color: var(--orange);
+  }
+  .fk-footer-form button {
+    background: var(--orange);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: opacity .15s;
+  }
+  .fk-footer-form button:hover { opacity: 0.88; }
+  
+  /* ── Bottom bar ── */
+  .fk-footer-bottom {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 18px 0;
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+  }
+  
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .fk-footer-inner {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }

@@ -59,5 +59,11 @@
     "errorPhone": "Phone must start with + followed by digits",
     "errorEmail": "Invalid email address",
     "successTitle": "Application submitted successfully!",
-    "successMessage": "Thank you for applying, the organizers will contact you soon."
+    "successMessage": "Thank you for applying, the organizers will contact you soon.",
+    "footerDescription": "Green Opportunities is a platform connecting Arab youth with the best environmental scholarships and training opportunities across the Arab world.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "yourMessage": "Your Message...",
+    "send": "Send",
+    "copyright": "© 2026 Green Opportunities — All Rights Reserved"
 }

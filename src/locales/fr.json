@@ -59,5 +59,11 @@
     "errorPhone": "Le numéro doit commencer par + suivi de chiffres",
     "errorEmail": "Adresse email invalide",
     "successTitle": "Candidature envoyée avec succès !",
-    "successMessage": "Merci pour votre candidature, les organisateurs vous contacteront prochainement."
+    "successMessage": "Merci pour votre candidature, les organisateurs vous contacteront prochainement.",
+    "footerDescription": "Plateforme Green Opportunities — Nous mettons les jeunes arabes en relation avec les meilleures bourses et formations environnementales dans le monde arabe.",
+    "quickLinks": "Liens rapides",
+    "contactUs": "Nous contacter",
+    "yourMessage": "Votre message...",
+    "send": "Envoyer",
+    "copyright": "© 2026 Green Opportunities — Tous droits réservés"
 }

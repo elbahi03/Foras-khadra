@@ -6,6 +6,9 @@ import Header from "./componant/Header";
 import OpportunitiesPage from "./page/opportinites";
 import Details from "./page/details";
 import Home from "./page/Home";
+import Footer from "./componant/Footer";
+import Scroll from "./componant/Scroll";
+
 
 function App() {
   const { i18n } = useTranslation();
@@ -17,6 +20,7 @@ function App() {
   return (
     <>
        <Header/>
+       <Scroll/>
        <div style={{ isolation: "isolate" }}>
        <Routes>
         <Route path="/" element={<Home />} />
@@ -24,6 +28,7 @@ function App() {
         <Route path="/opportunities/:id" element={<Details />} />
       </Routes>
       </div>
+      <Footer />
     </>
   )
 }

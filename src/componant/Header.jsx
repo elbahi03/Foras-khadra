@@ -41,7 +41,7 @@ function Header() {
                     {t("about")}
                 </a>
 
-                <a href="/contact" className="nav-link">
+                <a href="#footer" className="nav-link">
                     {t("contact")}
                 </a>
 

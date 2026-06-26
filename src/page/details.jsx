@@ -15,6 +15,7 @@ import { OPPORTUNITIES, FUND_COLOR } from "../data/data";
 import { formatDate } from "../data/dateformat";
 import "../style/detail.css";
 import Form from "../componant/Formulaire";
+import Last from "../componant/Derr";
 
 export default function OpportunityDetail() {
     const { t, i18n } = useTranslation();
@@ -188,6 +189,7 @@ export default function OpportunityDetail() {
                     </button>
                 </div>
             </div>
+            <Last />
         </div>
     );
 }

@@ -78,7 +78,7 @@
 /* ── Body ───────────────────────────────────────────────── */
 .fk-detail-body {
     max-width: 920px;
-    margin: -44px auto 0;
+    margin: -44px auto -50px;
     padding: 0 24px 64px;
     position: relative;
     z-index: 2;
