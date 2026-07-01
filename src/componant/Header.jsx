@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../style/Header.css"
-import logo from "../asset/logo/white.png";
+import logo from "../asset/logo/logo.png";
 
 
 function Header() {

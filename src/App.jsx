@@ -21,13 +21,11 @@ function App() {
     <>
        <Header/>
        <Scroll/>
-       <div style={{ isolation: "isolate" }}>
        <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/opportunities" element={<OpportunitiesPage />} />
         <Route path="/opportunities/:id" element={<Details />} />
       </Routes>
-      </div>
       <Footer />
     </>
   )

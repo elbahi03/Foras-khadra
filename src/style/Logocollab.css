@@ -1,0 +1,95 @@
+.logocollab {
+    background: var(--cream);
+    padding: 60px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logocollab>div:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.logocollab>div:first-child h1 {
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 800;
+    color: var(--green-deep);
+    margin: 0;
+}
+
+.fk-partners {
+    background: transparent;
+    padding: 0;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fk-partners-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 28px;
+}
+
+.fk-partners-title span {
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 800;
+    color: var(--green-deep);
+}
+
+.fk-partners-track {
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 0;
+}
+
+.logoloop__list {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.logoloop__item {
+    list-style: none !important;
+}
+
+.logoloop__item img {
+    width: 72px !important;
+    height: 72px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--line);
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(22, 61, 44, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logoloop__item:hover img {
+    transform: scale(1.12);
+    box-shadow: 0 8px 20px rgba(22, 61, 44, 0.2);
+}
+
+@media (max-width: 560px) {
+    .logocollab {
+        padding: 40px 12px;
+    }
+}
