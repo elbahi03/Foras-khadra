@@ -55,11 +55,12 @@
     height: 100px;
     position: relative;
     overflow: hidden;
-    width: 100%;
-    box-sizing: border-box;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
     padding: 12px 0;
+    box-sizing: border-box;
 }
 
 .logoloop__list {

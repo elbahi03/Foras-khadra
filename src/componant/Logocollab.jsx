@@ -49,7 +49,7 @@ function Logocollab() {
                             speed={80}
                             direction="left"
                             logoHeight={72}
-                            gap={32}
+                            gap={48}
                             hoverSpeed={0}
                             scaleOnHover={false}
                             fadeOut
